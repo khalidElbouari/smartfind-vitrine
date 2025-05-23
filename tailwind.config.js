@@ -23,29 +23,37 @@ module.exports = {
       padding: "16px",
     },
     extend: {
-       colors: {
-        black: "#3D4B53",
-        "dark-700": "#3D4B5380",
+           colors: {
+        black: "#2D3E4F",
+        "dark-700": "#2D3E4F80",
         dark: {
-          DEFAULT: "#3D4B53",
-          2: "#2F3B42",
-          3: "#558C83",
-          4: "#457A70",
-          5: "#84B0A7",
-          6: "#B0CCC4",
-          7: "#D1E0DB",
-          8: "#F5F1E5",
+          DEFAULT: "#2D3E4F",
+          2: "#34495E",
+          3: "#5D7A8B",
+          4: "#6B8FA3",
+          5: "#8BB4C8",
+          6: "#A8C8D8",
+          7: "#C5DCE8",
+          8: "#E8F4F8",
         },
-        primary: "#D06F3C",
-        "blue-dark": "#3D4B53",
-        secondary: "#558C83",
-        "body-color": "#3D4B53",
-        "body-secondary": "#558C83",
-        warning: "#E3C05B",
-        stroke: "#B0CCC4",
-        "gray-1": "#F5F1E5",
-        "gray-2": "#EDE6D1",
-        "gray-7": "#84B0A7",
+        primary: "#E67E22", // Orange from logo
+        "blue-dark": "#2D3E4F", // Dark blue-gray from logo
+        secondary: "#2ECC71", // Green from logo (adjusted for better contrast)
+        "body-color": "#2D3E4F",
+        "body-secondary": "#5D7A8B",
+        warning: "#F1C40F", // Yellow from logo
+        stroke: "#BDC3C7",
+        "gray-1": "#F8F9FA",
+        "gray-2": "#E9ECEF",
+        "gray-7": "#6C757D",
+        // Logo-specific colors
+        "logo-orange": "#E67E22",
+        "logo-green": "#27AE60",
+        "logo-teal": "#16A085",
+        "logo-yellow": "#F39C12",
+        "logo-blue": "#3498DB",
+        "logo-dark": "#2C3E50",
+        "logo-gray": "#5D6D7E",
       },
       boxShadow: {
         input: "0px 7px 20px rgba(0, 0, 0, 0.03)",
