@@ -614,6 +614,10 @@ body {
   visibility: visible;
 }
 
+.invisible{
+  visibility: hidden;
+}
+
 .static{
   position: static;
 }
@@ -1418,11 +1422,11 @@ body {
 
 .bg-secondary{
   --tw-bg-opacity: 1;
-  background-color: rgb(46 204 113 / var(--tw-bg-opacity, 1));
+  background-color: rgb(15 158 86 / var(--tw-bg-opacity, 1));
 }
 
 .bg-secondary\/20{
-  background-color: rgb(46 204 113 / 0.2);
+  background-color: rgb(15 158 86 / 0.2);
 }
 
 .bg-transparent{
@@ -1472,7 +1476,7 @@ body {
 }
 
 .to-secondary\/10{
-  --tw-gradient-to: rgb(46 204 113 / 0.1) var(--tw-gradient-to-position);
+  --tw-gradient-to: rgb(15 158 86 / 0.1) var(--tw-gradient-to-position);
 }
 
 .fill-current{
@@ -1548,11 +1552,6 @@ body {
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .py-16{
@@ -1660,11 +1659,6 @@ body {
   line-height: 2.5rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-\[32px\]{
   font-size: 32px;
 }
@@ -1700,10 +1694,6 @@ body {
 
 .font-bold{
   font-weight: 700;
-}
-
-.font-extrabold{
-  font-weight: 800;
 }
 
 .font-medium{
@@ -1793,7 +1783,7 @@ body {
 
 .text-secondary{
   --tw-text-opacity: 1;
-  color: rgb(46 204 113 / var(--tw-text-opacity, 1));
+  color: rgb(15 158 86 / var(--tw-text-opacity, 1));
 }
 
 .text-white{
@@ -1811,10 +1801,6 @@ body {
 
 .text-white\/90{
   color: rgb(255 255 255 / 0.9);
-}
-
-.text-opacity-70{
-  --tw-text-opacity: 0.7;
 }
 
 .opacity-0{
@@ -2302,16 +2288,8 @@ body {
     margin-right: 1.5rem;
   }
 
-  .sm\:h-\[160px\]{
-    height: 160px;
-  }
-
   .sm\:h-\[220px\]{
     height: 220px;
-  }
-
-  .sm\:h-\[400px\]{
-    height: 400px;
   }
 
   .sm\:h-\[60px\]{
@@ -2332,10 +2310,6 @@ body {
 
   .sm\:p-12{
     padding: 3rem;
-  }
-
-  .sm\:p-5{
-    padding: 1.25rem;
   }
 
   .sm\:px-10{
@@ -2393,10 +2367,6 @@ body {
 @media (min-width: 720px){
   .md\:h-\[346px\]{
     height: 346px;
-  }
-
-  .md\:h-\[540px\]{
-    height: 540px;
   }
 
   .md\:w-1\/2{
@@ -2530,10 +2500,6 @@ body {
 
   .lg\:h-\[225px\]{
     height: 225px;
-  }
-
-  .lg\:h-\[400px\]{
-    height: 400px;
   }
 
   .lg\:h-\[45\%\]{
@@ -2742,10 +2708,6 @@ body {
 
   .xl\:h-\[310px\]{
     height: 310px;
-  }
-
-  .xl\:h-\[500px\]{
-    height: 500px;
   }
 
   .xl\:w-1\/4{

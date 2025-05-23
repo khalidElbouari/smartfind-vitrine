@@ -38,7 +38,7 @@ module.exports = {
         },
         primary: "#E67E22", // Orange from logo
         "blue-dark": "#2D3E4F", // Dark blue-gray from logo
-        secondary: "#2ECC71", // Green from logo (adjusted for better contrast)
+        secondary: "#0f9e56", // Green from logo (adjusted for better contrast)
         "body-color": "#2D3E4F",
         "body-secondary": "#5D7A8B",
         warning: "#F1C40F", // Yellow from logo
