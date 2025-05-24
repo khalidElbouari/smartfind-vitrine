@@ -71,8 +71,8 @@ npm run build-css
 
 Le site vitrine permet aux visiteurs de télécharger les applications mobiles :
 
-- **Android** : [Lien Google Play Store]
-- **iOS** : [Lien App Store]
+- **Android** : [en cours de développement]
+- **iOS** : [en cours de développement]
 
 ## 🎨 Design et UX
 
